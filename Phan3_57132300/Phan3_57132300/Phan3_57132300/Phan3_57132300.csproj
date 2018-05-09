@@ -19,6 +19,8 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -158,6 +160,7 @@
     <Content Include="Bai5_57132300.aspx" />
     <Content Include="Bai6_57132300.aspx" />
     <Content Include="Bai7_57132300.aspx" />
+    <Content Include="Bai8_57132300.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -309,6 +312,13 @@
     </Compile>
     <Compile Include="Bai7_57132300.aspx.designer.cs">
       <DependentUpon>Bai7_57132300.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bai8_57132300.aspx.cs">
+      <DependentUpon>Bai8_57132300.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bai8_57132300.aspx.designer.cs">
+      <DependentUpon>Bai8_57132300.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
