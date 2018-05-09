@@ -132,6 +132,7 @@
     <Content Include="Bai1_57132300.aspx" />
     <Content Include="Bai2_57132300.aspx" />
     <Content Include="Bai3_57132300.aspx" />
+    <Content Include="Bai4_57132300.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -222,6 +223,13 @@
     </Compile>
     <Compile Include="Bai3_57132300.aspx.designer.cs">
       <DependentUpon>Bai3_57132300.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bai4_57132300.aspx.cs">
+      <DependentUpon>Bai4_57132300.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bai4_57132300.aspx.designer.cs">
+      <DependentUpon>Bai4_57132300.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
