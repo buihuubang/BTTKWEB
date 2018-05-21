@@ -64,7 +64,7 @@
                 </tr>
                 <tr>
                     <td colspan="4">
-                        <asp:GridView ID="GridTable" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" Width="936px">
+                        <asp:GridView ID="GridTable" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" Width="936px" AllowPaging="True" AutoGenerateSelectButton="True" PageSize="5">
                             <AlternatingRowStyle BackColor="White" />
                             <EditRowStyle BackColor="#7C6F57" />
                             <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />

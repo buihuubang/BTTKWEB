@@ -9,6 +9,9 @@
         .auto-style1 {
             height: 30px;
         }
+        .auto-style2 {
+            height: 26px;
+        }
     </style>
 </head>
 <body>
@@ -20,7 +23,7 @@
                 </tr>
                 <tr>
                     <td colspan="3">
-                        <asp:GridView ID="GridViewTab" runat="server" BackColor="White" BorderColor="#999999" BorderStyle="None" BorderWidth="1px" CellPadding="3" GridLines="Vertical" Width="925px">
+                        <asp:GridView ID="GridViewTab" runat="server" BackColor="White" BorderColor="#999999" BorderStyle="None" BorderWidth="1px" CellPadding="3" GridLines="Vertical" Width="925px" AllowPaging="True" AutoGenerateSelectButton="True" PageSize="5">
                             <AlternatingRowStyle BackColor="#DCDCDC" />
                             <FooterStyle BackColor="#CCCCCC" ForeColor="Black" />
                             <HeaderStyle BackColor="#000084" Font-Bold="True" ForeColor="White" />
@@ -45,11 +48,11 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td>Tên điện thoại</td>
-                    <td>
+                    <td class="auto-style2">Tên điện thoại</td>
+                    <td class="auto-style2">
                         <asp:TextBox ID="txtTen" runat="server"></asp:TextBox>
                     </td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style2"></td>
                 </tr>
                 <tr>
                     <td>Đơn giá</td>

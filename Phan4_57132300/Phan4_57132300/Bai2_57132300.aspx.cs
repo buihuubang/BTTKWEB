@@ -123,5 +123,10 @@ namespace Phan4_57132300
                 ScriptManager.RegisterStartupScript(this, this.GetType(), "alert", "alert('Sửa lỗi!');", true);
             }
         }
+
+        protected void dropLoai_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

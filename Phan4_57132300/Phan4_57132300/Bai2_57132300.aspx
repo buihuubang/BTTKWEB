@@ -71,9 +71,7 @@
                 <tr>
                     <td>Loại sách</td>
                     <td>
-                        <asp:DropDownList ID="dropLoai" runat="server" Width="211px">
-                            <asp:ListItem>Ngoại Ngữ</asp:ListItem>
-                            <asp:ListItem>Văn Học</asp:ListItem>
+                        <asp:DropDownList ID="dropLoai" runat="server" Width="211px" OnSelectedIndexChanged="dropLoai_SelectedIndexChanged">
                         </asp:DropDownList>
 &nbsp;&nbsp;
                         <asp:Button ID="btnThem" runat="server" OnClick="btnThem_Click" Text="THÊM" />
